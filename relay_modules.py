@@ -190,10 +190,11 @@ def get_workload(net):
     return create_workload(Func)
 
 
-def get_runtime_module(mod, params, opt_level=3, target='cpu'):
-    assert target in ['cpu', 'mali', 'adreno', 'cuda', 'trt']
+def get_runtime_module(mod, params, opt_level=3, target='cpu', dla_dev=None):
+    assert target in ['cpu', 'mali', 'adreno', 'cuda', 'trt', 'dla']
     config = None
-    relay.backend.compile_engine.get().clear()
+    #relay.backend.compile_engine.get().clear()
+    relay.backend.te_compiler.get().clear()
 
     if target=='trt':
         from tvm.relay.op.contrib.tensorrt import partition_for_tensorrt
@@ -201,10 +202,15 @@ def get_runtime_module(mod, params, opt_level=3, target='cpu'):
         config = {'relay.ext.tensorrt.options': config}
 
     with tvm.transform.PassContext(opt_level=opt_level, config=config):
-        if target in ['cpu', 'cuda', 'trt']:
+        if target in ['cpu', 'cuda', 'trt', 'dla']:
             if target == 'cpu':
                 tgt = tvm.target.create('llvm -mtriple=aarch64-linux-gnu')
                 ctx = tvm.cpu()
+            elif target == 'dla':
+                # TODO : dla internal execution??
+                dla_dev.model = mod
+                module = dla_dev.run_setup(mod)
+                return module 
             else:
                 tgt = tvm.target.cuda()
                 ctx = tvm.gpu()
@@ -311,6 +317,28 @@ def record_execution(module, input_shape, ctx, repeat=30, warmup=10):
             record.append(lat)
     return record
     #return list_to_stat(record)
+
+def run_full_model(dev, input_data = None):
+    infer_result = dev.exec_local(input_data=input_data)
+    return infer_result
+
+def dla_record_execution(module, input_shape, ctx, repeat=30, warmup=10):
+    record = []
+    for i in range(repeat):
+        data = np.random.uniform(-1, 1, size=input_shape).astype("float32")
+        #module.set_input("data", data)
+        start = timestamp()
+        run_full_model(ctx, data)
+        #module.run()
+        #if 'cl' in str(ctx):# or 'gpu' in str(ctx):
+        #    ctx.sync()
+        end = timestamp()
+        lat = end-start
+        if i >= warmup:
+            record.append(lat)
+    return record
+    #return list_to_stat(record)
+
 
 
 def record_data_transfer_no_numpy(module, input_shape, ctx, repeat=30, warmup=10):

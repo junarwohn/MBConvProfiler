@@ -12,9 +12,9 @@ class MBProfiler():
             experiment=1,
             warmup=1, 
             repeat=12):
-        
-        assert device in ['firefly', 'snapdragon', 'nano']
-        assert target in ['cpu','mali','adreno','cuda','trt']
+        from package.classes.device import Device, DevType 
+        assert device in ['firefly', 'snapdragon', 'nano', 'xavier']
+        assert target in ['cpu','mali','adreno','cuda','trt', 'dla']
         assert opt_level in [0,1,2,3]
         assert repeat > warmup
         
@@ -24,6 +24,10 @@ class MBProfiler():
         self.experiment = experiment
         self.warmup = warmup
         self.repeat = repeat
+
+        dev_name = "NVIDIA Xavier AGX"
+        dev_type_dla = DevType.NVIDIA_XAVIER_AGX_TRT_DLA
+        self.dla_dev = None
 
         if self.target == 'cpu':
             self.tgt = tvm.target.create('llvm -mtriple=aarch64-linux-gnu')
@@ -37,6 +41,16 @@ class MBProfiler():
         elif self.target in ['cuda', 'trt']:
             self.tgt = tvm.target.cuda()
             self.ctx = tvm.gpu()
+        elif self.target in ['dla']:
+            self.dla_dev = Device(dev_name, dev_type_dla, target_id=0, mode='local',
+                url='192.168.0.122', port=9186, home_dir=f'/home/jd/',
+                account='xavier', password='xavier')
+
+            #self.tgt = tvm.target.cuda()
+            #self.ctx = tvm.gpu()
+            self.ctx = self.dla_dev.tvm_dev
+
+
 
         self.block_name = 'mbconv_tmp'
 
@@ -60,7 +74,7 @@ class MBProfiler():
         if self.tuning_log != None:
             self.module = get_runtime_module_tuned(self.mod, self.params, self.tuning_log, self.opt_level, self.target)
         else:
-            self.module = get_runtime_module(self.mod, self.params, self.opt_level, self.target)
+            self.module = get_runtime_module(self.mod, self.params, self.opt_level, self.target, self.dla_dev)
 
 
     def build_mod_params(self, config_key: tuple, act='ReLU6'): #(in_s, k, s, in_c, exp_c, out_c), 'ReLU6'
@@ -78,6 +92,8 @@ class MBProfiler():
     def profile_execution(self):
         self.exec_record = dict()
         records = []
+        #if self.device == 'xavier':
+        #    record_execution = dla_record_execution
         for i in range(self.experiment): 
             result = record_execution(self.module, self.input_shape, self.ctx, 
                                       self.repeat, self.warmup)
@@ -145,7 +161,7 @@ class MBProfiler():
         if self.tuning_log != None:
             self.module = get_runtime_module_tuned(self.mod, self.params, self.tuning_log, self.opt_level, self.target)
         else:
-            self.module = get_runtime_module(self.mod, self.params, self.opt_level, self.target)
+            self.module = get_runtime_module(self.mod, self.params, self.opt_level, self.target, self.dla_dev)
 
     def profile_execution(self):
         self.exec_record = dict()
