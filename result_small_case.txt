@@ -1,0 +1,2097 @@
+ 
+(112, 3, 1, 32, 8, 16)
+Params #:  456
+MACs:  5720064
+ 
+[12:11:17] (INFO) Building library...
+[12:11:17] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.0807761452414772, 'median': 2.0894775390625, 'mins': 1.880859375}
+ 
+(112, 3, 1, 32, 8, 8)
+Params #:  392
+MACs:  4917248
+ 
+[12:11:36] (INFO) Building library...
+[12:11:36] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.886947354403409, 'median': 1.8480224609375, 'mins': 1.7169189453125}
+ 
+(112, 3, 1, 32, 16, 16)
+Params #:  912
+MACs:  11440128
+ 
+[12:11:55] (INFO) Building library...
+[12:11:55] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.6084650213068181, 'median': 1.5909423828125, 'mins': 1.50634765625}
+ 
+(112, 3, 1, 32, 16, 8)
+Params #:  784
+MACs:  9834496
+ 
+[12:12:14] (INFO) Building library...
+[12:12:14] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7428866299715908, 'median': 1.7039794921875, 'mins': 1.5423583984375}
+ 
+(112, 3, 1, 32, 32, 16)
+Params #:  1824
+MACs:  22880256
+ 
+[12:12:34] (INFO) Building library...
+[12:12:34] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.0083063299005681, 'median': 0.994384765625, 'mins': 0.9290771484375}
+ 
+(112, 3, 1, 32, 32, 8)
+Params #:  1568
+MACs:  19668992
+ 
+[12:12:50] (INFO) Building library...
+[12:12:50] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.3014404296875, 'median': 1.279052734375, 'mins': 1.2012939453125}
+ 
+(112, 3, 2, 16, 8, 12)
+Params #:  296
+MACs:  2132480
+ 
+[12:13:06] (INFO) Building library...
+[12:13:06] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.003510076349432, 'median': 1.9561767578125, 'mins': 1.7769775390625}
+ 
+(112, 3, 2, 16, 8, 24)
+Params #:  392
+MACs:  2433536
+ 
+[12:13:25] (INFO) Building library...
+[12:13:25] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8823752663352273, 'median': 1.8602294921875, 'mins': 1.7601318359375}
+ 
+(112, 3, 2, 16, 16, 12)
+Params #:  592
+MACs:  4264960
+ 
+[12:13:44] (INFO) Building library...
+[12:13:44] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.1144242720170454, 'median': 1.089599609375, 'mins': 1.0302734375}
+ 
+(112, 3, 2, 16, 16, 24)
+Params #:  784
+MACs:  4867072
+ 
+[12:13:58] (INFO) Building library...
+[12:13:58] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.1662431196732954, 'median': 1.15185546875, 'mins': 1.0697021484375}
+ 
+(112, 3, 2, 16, 32, 12)
+Params #:  1184
+MACs:  8529920
+ 
+[12:14:13] (INFO) Building library...
+[12:14:13] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.04383544921875, 'median': 1.9835205078125, 'mins': 1.8585205078125}
+ 
+(112, 3, 2, 16, 32, 24)
+Params #:  1568
+MACs:  9734144
+ 
+[12:14:32] (INFO) Building library...
+[12:14:32] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.9894875266335228, 'median': 1.913330078125, 'mins': 1.8199462890625}
+ 
+(112, 3, 2, 16, 64, 12)
+Params #:  2368
+MACs:  17059840
+ 
+[12:14:50] (INFO) Building library...
+[12:14:50] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.363527610085227, 'median': 2.3348388671875, 'mins': 2.1990966796875}
+ 
+(112, 3, 2, 16, 64, 24)
+Params #:  3136
+MACs:  19468288
+ 
+[12:15:08] (INFO) Building library...
+[12:15:08] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.511831942471591, 'median': 2.4285888671875, 'mins': 2.3214111328125}
+ 
+(112, 3, 2, 16, 96, 12)
+Params #:  3552
+MACs:  25589760
+ 
+[12:15:26] (INFO) Building library...
+[12:15:26] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.293976384943182, 'median': 2.2366943359375, 'mins': 2.146484375}
+ 
+(112, 3, 2, 16, 96, 24)
+Params #:  4704
+MACs:  29202432
+ 
+[12:15:44] (INFO) Building library...
+[12:15:44] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.9185202858664774, 'median': 1.851318359375, 'mins': 1.7620849609375}
+ 
+(112, 3, 2, 16, 128, 12)
+Params #:  4736
+MACs:  34119680
+ 
+[12:16:03] (INFO) Building library...
+[12:16:03] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.819430264559659, 'median': 2.74560546875, 'mins': 2.63525390625}
+ 
+(112, 3, 2, 16, 128, 24)
+Params #:  6272
+MACs:  38936576
+ 
+[12:16:22] (INFO) Building library...
+[12:16:22] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.7708185369318183, 'median': 2.69873046875, 'mins': 2.6044921875}
+ 
+(56, 3, 1, 24, 8, 12)
+Params #:  360
+MACs:  1128960
+ 
+[12:16:41] (INFO) Building library...
+[12:16:41] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7333030007102272, 'median': 1.7130126953125, 'mins': 1.6231689453125}
+ 
+(56, 3, 1, 24, 8, 24)
+Params #:  456
+MACs:  1430016
+ 
+[12:16:58] (INFO) Building library...
+[12:16:58] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.593291681463068, 'median': 2.5433349609375, 'mins': 2.450439453125}
+ 
+(56, 3, 1, 24, 16, 12)
+Params #:  720
+MACs:  2257920
+ 
+[12:17:18] (INFO) Building library...
+[12:17:18] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.0592329545454544, 'median': 2.03076171875, 'mins': 1.9049072265625}
+ 
+(56, 3, 1, 24, 16, 24)
+Params #:  912
+MACs:  2860032
+ 
+[12:17:35] (INFO) Building library...
+[12:17:35] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.5749855735085228, 'median': 2.526123046875, 'mins': 2.43408203125}
+ 
+(56, 3, 1, 24, 32, 12)
+Params #:  1440
+MACs:  4515840
+ 
+[12:17:55] (INFO) Building library...
+[12:17:55] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8563188032670455, 'median': 1.8363037109375, 'mins': 1.737548828125}
+ 
+(56, 3, 1, 24, 32, 24)
+Params #:  1824
+MACs:  5720064
+ 
+[12:18:12] (INFO) Building library...
+[12:18:12] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.6289661754261364, 'median': 2.5950927734375, 'mins': 2.4600830078125}
+ 
+(56, 3, 1, 24, 64, 12)
+Params #:  2880
+MACs:  9031680
+ 
+[12:18:31] (INFO) Building library...
+[12:18:31] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8830799449573863, 'median': 1.8720703125, 'mins': 1.776123046875}
+ 
+(56, 3, 1, 24, 64, 24)
+Params #:  3648
+MACs:  11440128
+ 
+[12:18:49] (INFO) Building library...
+[12:18:49] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.6138538707386365, 'median': 2.5804443359375, 'mins': 2.4879150390625}
+ 
+(56, 3, 1, 24, 128, 12)
+Params #:  5760
+MACs:  18063360
+ 
+[12:19:08] (INFO) Building library...
+[12:19:08] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.051300603693182, 'median': 1.944580078125, 'mins': 1.832763671875}
+ 
+(56, 3, 1, 24, 128, 24)
+Params #:  7296
+MACs:  22880256
+ 
+[12:19:26] (INFO) Building library...
+[12:19:26] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.71552734375, 'median': 2.6861572265625, 'mins': 2.5855712890625}
+ 
+(56, 3, 1, 24, 144, 12)
+Params #:  6480
+MACs:  20321280
+ 
+[12:19:45] (INFO) Building library...
+[12:19:45] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.890335360440341, 'median': 1.8018798828125, 'mins': 1.6932373046875}
+ 
+(56, 3, 1, 24, 144, 24)
+Params #:  8208
+MACs:  25740288
+ 
+[12:20:03] (INFO) Building library...
+[12:20:03] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.2663718483664774, 'median': 2.2261962890625, 'mins': 2.114990234375}
+ 
+(56, 3, 2, 24, 8, 16)
+Params #:  392
+MACs:  758912
+ 
+[12:20:22] (INFO) Building library...
+[12:20:22] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7376686789772726, 'median': 1.717041015625, 'mins': 1.62939453125}
+ 
+(56, 3, 2, 24, 8, 32)
+Params #:  520
+MACs:  859264
+ 
+[12:20:40] (INFO) Building library...
+[12:20:40] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7015702681107954, 'median': 1.6783447265625, 'mins': 1.589599609375}
+ 
+(56, 3, 2, 24, 16, 16)
+Params #:  784
+MACs:  1517824
+ 
+[12:20:57] (INFO) Building library...
+[12:20:57] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.6769087357954546, 'median': 1.63330078125, 'mins': 1.5538330078125}
+ 
+(56, 3, 2, 24, 16, 32)
+Params #:  1040
+MACs:  1718528
+ 
+[12:21:14] (INFO) Building library...
+[12:21:14] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7298450816761364, 'median': 1.707763671875, 'mins': 1.605224609375}
+ 
+(56, 3, 2, 24, 32, 16)
+Params #:  1568
+MACs:  3035648
+ 
+[12:21:32] (INFO) Building library...
+[12:21:32] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.91490478515625, 'median': 1.887451171875, 'mins': 1.7794189453125}
+ 
+(56, 3, 2, 24, 32, 32)
+Params #:  2080
+MACs:  3437056
+ 
+[12:21:49] (INFO) Building library...
+[12:21:49] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8446477716619318, 'median': 1.8218994140625, 'mins': 1.705078125}
+ 
+(56, 3, 2, 24, 64, 16)
+Params #:  3136
+MACs:  6071296
+ 
+[12:22:06] (INFO) Building library...
+[12:22:06] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.151380504261364, 'median': 2.111328125, 'mins': 2.0191650390625}
+ 
+(56, 3, 2, 24, 64, 32)
+Params #:  4160
+MACs:  6874112
+ 
+[12:22:23] (INFO) Building library...
+[12:22:23] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.1743885387073862, 'median': 2.1446533203125, 'mins': 1.9993896484375}
+ 
+(56, 3, 2, 24, 128, 16)
+Params #:  6272
+MACs:  12142592
+ 
+[12:22:40] (INFO) Building library...
+[12:22:40] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.9022527521306818, 'median': 1.8209228515625, 'mins': 1.7177734375}
+ 
+(56, 3, 2, 24, 128, 32)
+Params #:  8320
+MACs:  13748224
+ 
+[12:22:58] (INFO) Building library...
+[12:22:58] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.9610551313920455, 'median': 1.8670654296875, 'mins': 1.7601318359375}
+ 
+(56, 3, 2, 24, 144, 16)
+Params #:  7056
+MACs:  13660416
+ 
+[12:23:15] (INFO) Building library...
+[12:23:15] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.81754150390625, 'median': 1.7205810546875, 'mins': 1.602294921875}
+ 
+(56, 3, 2, 24, 144, 32)
+Params #:  9360
+MACs:  15466752
+ 
+[12:23:33] (INFO) Building library...
+[12:23:33] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.3772028142755681, 'median': 1.3624267578125, 'mins': 1.2581787109375}
+ 
+(28, 3, 1, 32, 8, 16)
+Params #:  456
+MACs:  357504
+ 
+[12:23:50] (INFO) Building library...
+[12:23:50] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5345736416903408, 'median': 1.5096435546875, 'mins': 1.4388427734375}
+ 
+(28, 3, 1, 32, 8, 32)
+Params #:  584
+MACs:  457856
+ 
+[12:24:07] (INFO) Building library...
+[12:24:07] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.3647272283380683, 'median': 2.3309326171875, 'mins': 2.2471923828125}
+ 
+(28, 3, 1, 32, 16, 16)
+Params #:  912
+MACs:  715008
+ 
+[12:24:26] (INFO) Building library...
+[12:24:26] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5301003196022727, 'median': 1.514404296875, 'mins': 1.44677734375}
+ 
+(28, 3, 1, 32, 16, 32)
+Params #:  1168
+MACs:  915712
+ 
+[12:24:43] (INFO) Building library...
+[12:24:43] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.35025634765625, 'median': 2.316162109375, 'mins': 2.2275390625}
+ 
+(28, 3, 1, 32, 32, 16)
+Params #:  1824
+MACs:  1430016
+ 
+[12:25:02] (INFO) Building library...
+[12:25:02] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 0.8755726207386364, 'median': 0.8682861328125, 'mins': 0.82861328125}
+ 
+(28, 3, 1, 32, 32, 32)
+Params #:  2336
+MACs:  1831424
+ 
+[12:25:16] (INFO) Building library...
+[12:25:16] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.587395685369318, 'median': 1.569091796875, 'mins': 1.494384765625}
+ 
+(28, 3, 1, 32, 64, 16)
+Params #:  3648
+MACs:  2860032
+ 
+[12:25:32] (INFO) Building library...
+[12:25:32] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.4232743696732955, 'median': 1.4063720703125, 'mins': 1.3475341796875}
+ 
+(28, 3, 1, 32, 64, 32)
+Params #:  4672
+MACs:  3662848
+ 
+[12:25:49] (INFO) Building library...
+[12:25:49] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.1650157581676135, 'median': 2.1563720703125, 'mins': 2.0791015625}
+ 
+(28, 3, 1, 32, 128, 16)
+Params #:  7296
+MACs:  5720064
+ 
+[12:26:09] (INFO) Building library...
+[12:26:09] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.9673073508522727, 'median': 1.9600830078125, 'mins': 1.8712158203125}
+ 
+(28, 3, 1, 32, 128, 32)
+Params #:  9344
+MACs:  7325696
+ 
+[12:26:26] (INFO) Building library...
+[12:26:26] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.588448819247159, 'median': 2.553466796875, 'mins': 2.4671630859375}
+ 
+(28, 3, 1, 32, 192, 16)
+Params #:  10944
+MACs:  8580096
+ 
+[12:26:45] (INFO) Building library...
+[12:26:45] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5523326526988637, 'median': 1.5384521484375, 'mins': 1.4765625}
+ 
+(28, 3, 1, 32, 192, 32)
+Params #:  14016
+MACs:  10988544
+ 
+[12:27:02] (INFO) Building library...
+[12:27:02] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.003518954190341, 'median': 1.9788818359375, 'mins': 1.885009765625}
+ 
+(28, 3, 1, 32, 256, 16)
+Params #:  14592
+MACs:  11440128
+ 
+[12:27:21] (INFO) Building library...
+[12:27:21] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7011929598721591, 'median': 1.68701171875, 'mins': 1.5703125}
+ 
+(28, 3, 1, 32, 256, 32)
+Params #:  18688
+MACs:  14651392
+ 
+[12:27:38] (INFO) Building library...
+[12:27:38] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.5427967418323862, 'median': 2.52783203125, 'mins': 2.4466552734375}
+ 
+(28, 3, 2, 32, 8, 32)
+Params #:  584
+MACs:  264992
+ 
+[12:27:57] (INFO) Building library...
+[12:27:57] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5483653675426137, 'median': 1.5194091796875, 'mins': 1.4422607421875}
+ 
+(28, 3, 2, 32, 8, 64)
+Params #:  840
+MACs:  315168
+ 
+[12:28:14] (INFO) Building library...
+[12:28:14] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5982799183238636, 'median': 1.579833984375, 'mins': 1.49658203125}
+ 
+(28, 3, 2, 32, 16, 32)
+Params #:  1168
+MACs:  529984
+ 
+[12:28:31] (INFO) Building library...
+[12:28:31] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.9104924982244318, 'median': 1.87548828125, 'mins': 1.793701171875}
+ 
+(28, 3, 2, 32, 16, 64)
+Params #:  1680
+MACs:  630336
+ 
+[12:28:49] (INFO) Building library...
+[12:28:49] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7247725053267045, 'median': 1.7093505859375, 'mins': 1.62841796875}
+ 
+(28, 3, 2, 32, 32, 32)
+Params #:  2336
+MACs:  1059968
+ 
+[12:29:06] (INFO) Building library...
+[12:29:06] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 0.9177423650568182, 'median': 0.887451171875, 'mins': 0.8460693359375}
+ 
+(28, 3, 2, 32, 32, 64)
+Params #:  3360
+MACs:  1260672
+ 
+[12:29:20] (INFO) Building library...
+[12:29:20] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.0826471502130681, 'median': 1.0638427734375, 'mins': 0.998779296875}
+ 
+(28, 3, 2, 32, 64, 32)
+Params #:  4672
+MACs:  2119936
+ 
+[12:29:35] (INFO) Building library...
+[12:29:35] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.4902332652698864, 'median': 1.461669921875, 'mins': 1.3912353515625}
+ 
+(28, 3, 2, 32, 64, 64)
+Params #:  6720
+MACs:  2521344
+ 
+[12:29:53] (INFO) Building library...
+[12:29:53] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.4645585493607955, 'median': 1.4581298828125, 'mins': 1.3939208984375}
+ 
+(28, 3, 2, 32, 128, 32)
+Params #:  9344
+MACs:  4239872
+ 
+[12:30:10] (INFO) Building library...
+[12:30:10] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.781417569247159, 'median': 1.767578125, 'mins': 1.68310546875}
+ 
+(28, 3, 2, 32, 128, 64)
+Params #:  13440
+MACs:  5042688
+ 
+[12:30:27] (INFO) Building library...
+[12:30:27] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.9021883877840908, 'median': 1.8817138671875, 'mins': 1.7730712890625}
+ 
+(28, 3, 2, 32, 192, 32)
+Params #:  14016
+MACs:  6359808
+ 
+[12:30:44] (INFO) Building library...
+[12:30:44] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.2057816938920454, 'median': 1.192138671875, 'mins': 1.126953125}
+ 
+(28, 3, 2, 32, 192, 64)
+Params #:  20160
+MACs:  7564032
+ 
+[12:31:02] (INFO) Building library...
+[12:31:02] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.2591863458806818, 'median': 1.252197265625, 'mins': 1.192626953125}
+ 
+(28, 3, 2, 32, 256, 32)
+Params #:  18688
+MACs:  8479744
+ 
+[12:31:20] (INFO) Building library...
+[12:31:20] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.802978515625, 'median': 1.780517578125, 'mins': 1.697021484375}
+ 
+(28, 3, 2, 32, 256, 64)
+Params #:  26880
+MACs:  10085376
+ 
+[12:31:37] (INFO) Building library...
+[12:31:37] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.9752397017045455, 'median': 1.9656982421875, 'mins': 1.869873046875}
+ 
+(14, 3, 1, 64, 8, 32)
+Params #:  840
+MACs:  164640
+ 
+[12:31:54] (INFO) Building library...
+[12:31:54] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.4591119939630681, 'median': 1.445556640625, 'mins': 1.395263671875}
+ 
+(14, 3, 1, 64, 8, 48)
+Params #:  968
+MACs:  189728
+ 
+[12:32:11] (INFO) Building library...
+[12:32:11] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.6286321466619318, 'median': 1.62646484375, 'mins': 1.4737548828125}
+ 
+(14, 3, 1, 64, 8, 64)
+Params #:  1096
+MACs:  214816
+ 
+[12:32:28] (INFO) Building library...
+[12:32:28] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.492636940696023, 'median': 2.418701171875, 'mins': 2.3214111328125}
+ 
+(14, 3, 1, 64, 8, 96)
+Params #:  1352
+MACs:  264992
+ 
+[12:32:47] (INFO) Building library...
+[12:32:47] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8480701793323864, 'median': 1.8155517578125, 'mins': 1.480712890625}
+ 
+(14, 3, 1, 64, 16, 32)
+Params #:  1680
+MACs:  329280
+ 
+[12:33:04] (INFO) Building library...
+[12:33:04] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5466541637073863, 'median': 1.528564453125, 'mins': 1.4456787109375}
+ 
+(14, 3, 1, 64, 16, 48)
+Params #:  1936
+MACs:  379456
+ 
+[12:33:22] (INFO) Building library...
+[12:33:22] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5602794300426137, 'median': 1.5379638671875, 'mins': 1.478515625}
+ 
+(14, 3, 1, 64, 16, 64)
+Params #:  2192
+MACs:  429632
+ 
+[12:33:38] (INFO) Building library...
+[12:33:38] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.290860262784091, 'median': 2.25732421875, 'mins': 2.16357421875}
+ 
+(14, 3, 1, 64, 16, 96)
+Params #:  2704
+MACs:  529984
+ 
+[12:33:57] (INFO) Building library...
+[12:33:57] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.43011474609375, 'median': 1.394775390625, 'mins': 1.3111572265625}
+ 
+(14, 3, 1, 64, 32, 32)
+Params #:  3360
+MACs:  658560
+ 
+[12:34:15] (INFO) Building library...
+[12:34:15] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.6312067205255683, 'median': 1.6102294921875, 'mins': 1.5401611328125}
+ 
+(14, 3, 1, 64, 32, 48)
+Params #:  3872
+MACs:  758912
+ 
+[12:34:32] (INFO) Building library...
+[12:34:32] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7177079634232955, 'median': 1.697509765625, 'mins': 1.6048583984375}
+ 
+(14, 3, 1, 64, 32, 64)
+Params #:  4384
+MACs:  859264
+ 
+[12:34:49] (INFO) Building library...
+[12:34:49] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.2696433327414773, 'median': 2.25244140625, 'mins': 2.1536865234375}
+ 
+(14, 3, 1, 64, 32, 96)
+Params #:  5408
+MACs:  1059968
+ 
+[12:35:08] (INFO) Building library...
+[12:35:08] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5345447887073864, 'median': 1.51318359375, 'mins': 1.434326171875}
+ 
+(14, 3, 1, 64, 64, 32)
+Params #:  6720
+MACs:  1317120
+ 
+[12:35:25] (INFO) Building library...
+[12:35:25] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 0.9021728515625, 'median': 0.88671875, 'mins': 0.828369140625}
+ 
+(14, 3, 1, 64, 64, 48)
+Params #:  7744
+MACs:  1517824
+ 
+[12:35:39] (INFO) Building library...
+[12:35:39] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 0.8701915394176136, 'median': 0.8565673828125, 'mins': 0.8189697265625}
+ 
+(14, 3, 1, 64, 64, 64)
+Params #:  8768
+MACs:  1718528
+ 
+[12:35:54] (INFO) Building library...
+[12:35:54] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7042469371448863, 'median': 1.6729736328125, 'mins': 1.5989990234375}
+ 
+(14, 3, 1, 64, 64, 96)
+Params #:  10816
+MACs:  2119936
+ 
+[12:36:09] (INFO) Building library...
+[12:36:09] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 0.9494695490056818, 'median': 0.943115234375, 'mins': 0.9034423828125}
+ 
+(14, 3, 1, 64, 128, 32)
+Params #:  13440
+MACs:  2634240
+ 
+[12:36:24] (INFO) Building library...
+[12:36:24] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.422600763494318, 'median': 1.40966796875, 'mins': 1.34375}
+ 
+(14, 3, 1, 64, 128, 48)
+Params #:  15488
+MACs:  3035648
+ 
+[12:36:43] (INFO) Building library...
+[12:36:43] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.3866588245738636, 'median': 1.3656005859375, 'mins': 1.2979736328125}
+ 
+(14, 3, 1, 64, 128, 64)
+Params #:  17536
+MACs:  3437056
+ 
+[12:37:02] (INFO) Building library...
+[12:37:02] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.2408447265625, 'median': 2.1956787109375, 'mins': 2.0892333984375}
+ 
+(14, 3, 1, 64, 128, 96)
+Params #:  21632
+MACs:  4239872
+ 
+[12:37:24] (INFO) Building library...
+[12:37:24] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.371826171875, 'median': 1.3614501953125, 'mins': 1.2947998046875}
+ 
+(14, 3, 1, 64, 192, 32)
+Params #:  20160
+MACs:  3951360
+ 
+[12:37:43] (INFO) Building library...
+[12:37:43] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.6652410333806817, 'median': 1.664794921875, 'mins': 1.453857421875}
+ 
+(14, 3, 1, 64, 192, 48)
+Params #:  23232
+MACs:  4553472
+ 
+[12:38:00] (INFO) Building library...
+[12:38:00] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5516068892045454, 'median': 1.5296630859375, 'mins': 1.453369140625}
+ 
+(14, 3, 1, 64, 192, 64)
+Params #:  26304
+MACs:  5155584
+ 
+[12:38:16] (INFO) Building library...
+[12:38:16] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.2512007279829547, 'median': 2.2139892578125, 'mins': 2.1146240234375}
+ 
+(14, 3, 1, 64, 192, 96)
+Params #:  32448
+MACs:  6359808
+ 
+[12:38:36] (INFO) Building library...
+[12:38:36] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5403253728693183, 'median': 1.525146484375, 'mins': 1.4505615234375}
+ 
+(14, 3, 1, 64, 256, 32)
+Params #:  26880
+MACs:  5268480
+ 
+[12:38:53] (INFO) Building library...
+[12:38:53] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7222622958096592, 'median': 1.700927734375, 'mins': 1.6187744140625}
+ 
+(14, 3, 1, 64, 256, 48)
+Params #:  30976
+MACs:  6071296
+ 
+[12:39:10] (INFO) Building library...
+[12:39:10] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7018110795454546, 'median': 1.6767578125, 'mins': 1.5872802734375}
+ 
+(14, 3, 1, 64, 256, 64)
+Params #:  35072
+MACs:  6874112
+ 
+[12:39:27] (INFO) Building library...
+[12:39:27] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.635317160866477, 'median': 2.5863037109375, 'mins': 2.4793701171875}
+ 
+(14, 3, 1, 64, 256, 96)
+Params #:  43264
+MACs:  8479744
+ 
+[12:39:46] (INFO) Building library...
+[12:39:46] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7327647816051137, 'median': 1.7059326171875, 'mins': 1.625732421875}
+ 
+(14, 3, 1, 64, 320, 32)
+Params #:  33600
+MACs:  6585600
+ 
+[12:40:02] (INFO) Building library...
+[12:40:02] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7671564275568181, 'median': 1.73779296875, 'mins': 1.6466064453125}
+ 
+(14, 3, 1, 64, 320, 48)
+Params #:  38720
+MACs:  7589120
+ 
+[12:40:20] (INFO) Building library...
+[12:40:20] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7209284002130683, 'median': 1.692626953125, 'mins': 1.6217041015625}
+ 
+(14, 3, 1, 64, 320, 64)
+Params #:  43840
+MACs:  8592640
+ 
+[12:40:37] (INFO) Building library...
+[12:40:37] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.4487659801136363, 'median': 2.4132080078125, 'mins': 2.3133544921875}
+ 
+(14, 3, 1, 64, 320, 96)
+Params #:  54080
+MACs:  10599680
+ 
+[12:40:56] (INFO) Building library...
+[12:40:56] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.6769642223011363, 'median': 1.6627197265625, 'mins': 1.590576171875}
+ 
+(14, 3, 1, 64, 384, 32)
+Params #:  40320
+MACs:  7902720
+ 
+[12:41:13] (INFO) Building library...
+[12:41:13] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.6253662109375, 'median': 1.579833984375, 'mins': 1.5087890625}
+ 
+(14, 3, 1, 64, 384, 48)
+Params #:  46464
+MACs:  9106944
+ 
+[12:41:31] (INFO) Building library...
+[12:41:31] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.54984130859375, 'median': 1.520751953125, 'mins': 1.434814453125}
+ 
+(14, 3, 1, 64, 384, 64)
+Params #:  52608
+MACs:  10311168
+ 
+[12:41:48] (INFO) Building library...
+[12:41:48] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.882577237215909, 'median': 1.8704833984375, 'mins': 1.7972412109375}
+ 
+(14, 3, 1, 64, 384, 96)
+Params #:  64896
+MACs:  12719616
+ 
+[12:42:07] (INFO) Building library...
+[12:42:07] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.1915383078835227, 'median': 1.181640625, 'mins': 1.11669921875}
+ 
+(14, 3, 1, 64, 448, 32)
+Params #:  47040
+MACs:  9219840
+ 
+[12:42:25] (INFO) Building library...
+[12:42:25] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.715508478338068, 'median': 1.702392578125, 'mins': 1.617431640625}
+ 
+(14, 3, 1, 64, 448, 48)
+Params #:  54208
+MACs:  10624768
+ 
+[12:42:42] (INFO) Building library...
+[12:42:42] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5547607421875, 'median': 1.5303955078125, 'mins': 1.458251953125}
+ 
+(14, 3, 1, 64, 448, 64)
+Params #:  61376
+MACs:  12029696
+ 
+[12:43:00] (INFO) Building library...
+[12:43:00] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.5827869762073865, 'median': 2.50439453125, 'mins': 2.390869140625}
+ 
+(14, 3, 1, 64, 448, 96)
+Params #:  75712
+MACs:  14839552
+ 
+[12:43:19] (INFO) Building library...
+[12:43:19] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8388527610085228, 'median': 1.8048095703125, 'mins': 1.7205810546875}
+ 
+(14, 3, 1, 64, 512, 32)
+Params #:  53760
+MACs:  10536960
+ 
+[12:43:36] (INFO) Building library...
+[12:43:36] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8277687766335227, 'median': 1.797607421875, 'mins': 1.692626953125}
+ 
+(14, 3, 1, 64, 512, 64)
+Params #:  70144
+MACs:  13748224
+ 
+[12:43:53] (INFO) Building library...
+[12:43:53] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.664697265625, 'median': 2.614990234375, 'mins': 2.5291748046875}
+ 
+(14, 3, 1, 64, 576, 32)
+Params #:  60480
+MACs:  11854080
+ 
+[12:44:12] (INFO) Building library...
+[12:44:12] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8064752752130682, 'median': 1.782958984375, 'mins': 1.696044921875}
+ 
+(14, 3, 1, 64, 576, 64)
+Params #:  78912
+MACs:  15466752
+ 
+[12:44:29] (INFO) Building library...
+[12:44:29] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.551712313565341, 'median': 2.5194091796875, 'mins': 2.419189453125}
+ 
+(14, 3, 1, 96, 8, 48)
+Params #:  1224
+MACs:  239904
+ 
+[12:44:48] (INFO) Building library...
+[12:44:48] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.549614923650568, 'median': 1.5235595703125, 'mins': 1.4503173828125}
+ 
+(14, 3, 1, 96, 8, 96)
+Params #:  1608
+MACs:  315168
+ 
+[12:45:05] (INFO) Building library...
+[12:45:05] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.2776167436079544, 'median': 2.2493896484375, 'mins': 2.162841796875}
+ 
+(14, 3, 1, 96, 16, 48)
+Params #:  2448
+MACs:  479808
+ 
+[12:45:24] (INFO) Building library...
+[12:45:24] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5338523171164773, 'median': 1.39404296875, 'mins': 1.2430419921875}
+ 
+(14, 3, 1, 96, 16, 96)
+Params #:  3216
+MACs:  630336
+ 
+[12:45:41] (INFO) Building library...
+[12:45:41] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.0798961292613636, 'median': 2.047607421875, 'mins': 1.9537353515625}
+ 
+(14, 3, 1, 96, 32, 48)
+Params #:  4896
+MACs:  959616
+ 
+[12:46:01] (INFO) Building library...
+[12:46:01] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.3974198774857955, 'median': 1.37548828125, 'mins': 1.304443359375}
+ 
+(14, 3, 1, 96, 32, 96)
+Params #:  6432
+MACs:  1260672
+ 
+[12:46:18] (INFO) Building library...
+[12:46:18] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.31800537109375, 'median': 2.264892578125, 'mins': 2.1697998046875}
+ 
+(14, 3, 1, 96, 64, 48)
+Params #:  9792
+MACs:  1919232
+ 
+[12:46:37] (INFO) Building library...
+[12:46:37] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.733527166193182, 'median': 1.7034912109375, 'mins': 1.6090087890625}
+ 
+(14, 3, 1, 96, 64, 96)
+Params #:  12864
+MACs:  2521344
+ 
+[12:46:54] (INFO) Building library...
+[12:46:54] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.486106178977273, 'median': 2.4412841796875, 'mins': 2.3529052734375}
+ 
+(14, 3, 1, 96, 128, 48)
+Params #:  19584
+MACs:  3838464
+ 
+[12:47:13] (INFO) Building library...
+[12:47:13] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7609419389204546, 'median': 1.749755859375, 'mins': 1.6793212890625}
+ 
+(14, 3, 1, 96, 128, 96)
+Params #:  25728
+MACs:  5042688
+ 
+[12:47:31] (INFO) Building library...
+[12:47:31] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.4635020862926136, 'median': 2.4456787109375, 'mins': 2.36669921875}
+ 
+(14, 3, 1, 96, 192, 48)
+Params #:  29376
+MACs:  5757696
+ 
+[12:47:49] (INFO) Building library...
+[12:47:49] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.595760830965909, 'median': 1.58203125, 'mins': 1.5069580078125}
+ 
+(14, 3, 1, 96, 192, 96)
+Params #:  38592
+MACs:  7564032
+ 
+[12:48:07] (INFO) Building library...
+[12:48:07] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.400998757102273, 'median': 2.3765869140625, 'mins': 2.279052734375}
+ 
+(14, 3, 1, 96, 256, 48)
+Params #:  39168
+MACs:  7676928
+ 
+[12:48:25] (INFO) Building library...
+[12:48:25] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7277931906960227, 'median': 1.6983642578125, 'mins': 1.6207275390625}
+ 
+(14, 3, 1, 96, 256, 96)
+Params #:  51456
+MACs:  10085376
+ 
+[12:48:42] (INFO) Building library...
+[12:48:42] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.570748623934659, 'median': 2.5267333984375, 'mins': 2.4058837890625}
+ 
+(14, 3, 1, 96, 320, 48)
+Params #:  48960
+MACs:  9596160
+ 
+[12:49:01] (INFO) Building library...
+[12:49:01] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7460671164772728, 'median': 1.722900390625, 'mins': 1.6446533203125}
+ 
+(14, 3, 1, 96, 320, 96)
+Params #:  64320
+MACs:  12606720
+ 
+[12:49:19] (INFO) Building library...
+[12:49:19] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.513364479758523, 'median': 2.48388671875, 'mins': 2.39697265625}
+ 
+(14, 3, 1, 96, 384, 48)
+Params #:  58752
+MACs:  11515392
+ 
+[12:49:38] (INFO) Building library...
+[12:49:38] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7630692915482955, 'median': 1.7508544921875, 'mins': 1.6802978515625}
+ 
+(14, 3, 1, 96, 384, 96)
+Params #:  77184
+MACs:  15128064
+ 
+[12:49:54] (INFO) Building library...
+[12:49:54] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.2075949928977274, 'median': 2.20068359375, 'mins': 2.1212158203125}
+ 
+(14, 3, 1, 96, 448, 48)
+Params #:  68544
+MACs:  13434624
+ 
+[12:50:14] (INFO) Building library...
+[12:50:14] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.834097567471591, 'median': 1.8082275390625, 'mins': 1.715087890625}
+ 
+(14, 3, 1, 96, 448, 96)
+Params #:  90048
+MACs:  17649408
+ 
+[12:50:31] (INFO) Building library...
+[12:50:31] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.656568492542614, 'median': 2.60986328125, 'mins': 2.5208740234375}
+ 
+(14, 3, 1, 96, 512, 48)
+Params #:  78336
+MACs:  15353856
+ 
+[12:50:50] (INFO) Building library...
+[12:50:50] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8524647105823864, 'median': 1.8255615234375, 'mins': 1.7169189453125}
+ 
+(14, 3, 1, 96, 512, 96)
+Params #:  102912
+MACs:  20170752
+ 
+[12:51:07] (INFO) Building library...
+[12:51:07] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.683059969815341, 'median': 2.639892578125, 'mins': 2.5474853515625}
+ 
+(14, 3, 1, 96, 576, 48)
+Params #:  88128
+MACs:  17273088
+ 
+[12:51:26] (INFO) Building library...
+[12:51:26] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5740034623579546, 'median': 1.5498046875, 'mins': 1.4599609375}
+ 
+(14, 3, 1, 96, 576, 96)
+Params #:  115776
+MACs:  22692096
+ 
+[12:51:43] (INFO) Building library...
+[12:51:43] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.9507424094460226, 'median': 1.923828125, 'mins': 1.8485107421875}
+ 
+(14, 3, 1, 96, 640, 48)
+Params #:  97920
+MACs:  19192320
+ 
+[12:52:02] (INFO) Building library...
+[12:52:02] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8885209517045454, 'median': 1.8353271484375, 'mins': 1.74951171875}
+ 
+(14, 3, 1, 96, 640, 96)
+Params #:  128640
+MACs:  25213440
+ 
+[12:52:19] (INFO) Building library...
+[12:52:19] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.648955743963068, 'median': 2.600341796875, 'mins': 2.494384765625}
+ 
+(14, 3, 1, 96, 704, 48)
+Params #:  107712
+MACs:  21111552
+ 
+[12:52:39] (INFO) Building library...
+[12:52:39] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.9010797674005682, 'median': 1.879638671875, 'mins': 1.761962890625}
+ 
+(14, 3, 1, 96, 704, 96)
+Params #:  141504
+MACs:  27734784
+ 
+[12:52:56] (INFO) Building library...
+[12:52:56] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.3369040749289773, 'median': 2.305419921875, 'mins': 2.2044677734375}
+ 
+(14, 3, 2, 96, 8, 80)
+Params #:  1480
+MACs:  185416
+ 
+[12:53:15] (INFO) Building library...
+[12:53:15] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5669355912642045, 'median': 1.5390625, 'mins': 1.46923828125}
+ 
+(14, 3, 2, 96, 8, 160)
+Params #:  2120
+MACs:  216776
+ 
+[12:53:32] (INFO) Building library...
+[12:53:32] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.6182517311789772, 'median': 1.6015625, 'mins': 1.5233154296875}
+ 
+(14, 3, 2, 96, 16, 80)
+Params #:  2960
+MACs:  370832
+ 
+[12:53:49] (INFO) Building library...
+[12:53:49] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5349220969460227, 'median': 1.519775390625, 'mins': 1.466796875}
+ 
+(14, 3, 2, 96, 16, 160)
+Params #:  4240
+MACs:  433552
+ 
+[12:54:06] (INFO) Building library...
+[12:54:06] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5146040482954546, 'median': 1.517578125, 'mins': 1.37158203125}
+ 
+(14, 3, 2, 96, 32, 80)
+Params #:  5920
+MACs:  741664
+ 
+[12:54:24] (INFO) Building library...
+[12:54:24] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.4099298650568182, 'median': 1.39306640625, 'mins': 1.324951171875}
+ 
+(14, 3, 2, 96, 32, 160)
+Params #:  8480
+MACs:  867104
+ 
+[12:54:41] (INFO) Building library...
+[12:54:41] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.3741166548295454, 'median': 1.366455078125, 'mins': 1.306884765625}
+ 
+(14, 3, 2, 96, 64, 80)
+Params #:  11840
+MACs:  1483328
+ 
+[12:54:59] (INFO) Building library...
+[12:54:59] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.547234552556818, 'median': 1.5224609375, 'mins': 1.445068359375}
+ 
+(14, 3, 2, 96, 64, 160)
+Params #:  16960
+MACs:  1734208
+ 
+[12:55:16] (INFO) Building library...
+[12:55:16] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5722678444602274, 'median': 1.547607421875, 'mins': 1.4613037109375}
+ 
+(14, 3, 2, 96, 128, 80)
+Params #:  23680
+MACs:  2966656
+ 
+[12:55:33] (INFO) Building library...
+[12:55:33] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7356689453125, 'median': 1.708251953125, 'mins': 1.630615234375}
+ 
+(14, 3, 2, 96, 128, 160)
+Params #:  33920
+MACs:  3468416
+ 
+[12:55:50] (INFO) Building library...
+[12:55:50] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7185369318181818, 'median': 1.701171875, 'mins': 1.643798828125}
+ 
+(14, 3, 2, 96, 192, 80)
+Params #:  35520
+MACs:  4449984
+ 
+[12:56:08] (INFO) Building library...
+[12:56:08] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7596746271306818, 'median': 1.7353515625, 'mins': 1.6375732421875}
+ 
+(14, 3, 2, 96, 192, 160)
+Params #:  50880
+MACs:  5202624
+ 
+[12:56:25] (INFO) Building library...
+[12:56:25] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8012029474431819, 'median': 1.7734375, 'mins': 1.6915283203125}
+ 
+(14, 3, 2, 96, 256, 80)
+Params #:  47360
+MACs:  5933312
+ 
+[12:56:42] (INFO) Building library...
+[12:56:42] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7771584250710226, 'median': 1.7491455078125, 'mins': 1.6580810546875}
+ 
+(14, 3, 2, 96, 256, 160)
+Params #:  67840
+MACs:  6936832
+ 
+[12:56:59] (INFO) Building library...
+[12:56:59] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5403952858664773, 'median': 1.5230712890625, 'mins': 1.4610595703125}
+ 
+(14, 3, 2, 96, 320, 80)
+Params #:  59200
+MACs:  7416640
+ 
+[12:57:16] (INFO) Building library...
+[12:57:16] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7853904030539773, 'median': 1.7587890625, 'mins': 1.6724853515625}
+ 
+(14, 3, 2, 96, 320, 160)
+Params #:  84800
+MACs:  8671040
+ 
+[12:57:33] (INFO) Building library...
+[12:57:33] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8460182883522727, 'median': 1.8017578125, 'mins': 1.7164306640625}
+ 
+(14, 3, 2, 96, 384, 80)
+Params #:  71040
+MACs:  8899968
+ 
+[12:57:51] (INFO) Building library...
+[12:57:51] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.726498135653409, 'median': 1.6986083984375, 'mins': 1.610107421875}
+ 
+(14, 3, 2, 96, 384, 160)
+Params #:  101760
+MACs:  10405248
+ 
+[12:58:07] (INFO) Building library...
+[12:58:07] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5241843483664772, 'median': 1.5166015625, 'mins': 1.4385986328125}
+ 
+(14, 3, 2, 96, 448, 80)
+Params #:  82880
+MACs:  10383296
+ 
+[12:58:24] (INFO) Building library...
+[12:58:24] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7246903852982955, 'median': 1.7066650390625, 'mins': 1.6083984375}
+ 
+(14, 3, 2, 96, 448, 160)
+Params #:  118720
+MACs:  12139456
+ 
+[12:58:41] (INFO) Building library...
+[12:58:41] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.64249267578125, 'median': 1.5906982421875, 'mins': 1.513916015625}
+ 
+(14, 3, 2, 96, 512, 80)
+Params #:  94720
+MACs:  11866624
+ 
+[12:58:59] (INFO) Building library...
+[12:58:59] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8961525656960228, 'median': 1.8763427734375, 'mins': 1.779052734375}
+ 
+(14, 3, 2, 96, 512, 160)
+Params #:  135680
+MACs:  13873664
+ 
+[12:59:15] (INFO) Building library...
+[12:59:15] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7176780007102272, 'median': 1.6878662109375, 'mins': 1.59423828125}
+ 
+(14, 3, 2, 96, 576, 80)
+Params #:  106560
+MACs:  13349952
+ 
+[12:59:32] (INFO) Building library...
+[12:59:32] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.6717351740056818, 'median': 1.6129150390625, 'mins': 1.51513671875}
+ 
+(14, 3, 2, 96, 576, 160)
+Params #:  152640
+MACs:  15607872
+ 
+[12:59:49] (INFO) Building library...
+[12:59:49] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.2326793323863636, 'median': 1.21533203125, 'mins': 1.149658203125}
+ 
+(14, 3, 2, 96, 640, 80)
+Params #:  118400
+MACs:  14833280
+ 
+[13:00:06] (INFO) Building library...
+[13:00:06] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7887595436789774, 'median': 1.7545166015625, 'mins': 1.6639404296875}
+ 
+(14, 3, 2, 96, 640, 160)
+Params #:  169600
+MACs:  17342080
+ 
+[13:00:23] (INFO) Building library...
+[13:00:23] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7983065518465908, 'median': 1.7869873046875, 'mins': 1.7093505859375}
+ 
+(14, 3, 2, 96, 704, 80)
+Params #:  130240
+MACs:  16316608
+ 
+[13:00:41] (INFO) Building library...
+[13:00:41] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.9400157581676136, 'median': 1.9163818359375, 'mins': 1.811279296875}
+ 
+(14, 3, 2, 96, 704, 160)
+Params #:  186560
+MACs:  19076288
+ 
+[13:00:58] (INFO) Building library...
+[13:00:58] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8726273970170455, 'median': 1.826171875, 'mins': 1.744873046875}
+ 
+(7, 3, 1, 160, 8, 80)
+Params #:  1992
+MACs:  97608
+ 
+[13:01:16] (INFO) Building library...
+[13:01:16] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.607855779474432, 'median': 1.5938720703125, 'mins': 1.5245361328125}
+ 
+(7, 3, 1, 160, 8, 160)
+Params #:  2632
+MACs:  128968
+ 
+[13:01:33] (INFO) Building library...
+[13:01:33] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.316375177556818, 'median': 2.2818603515625, 'mins': 2.172607421875}
+ 
+(7, 3, 1, 160, 8, 320)
+Params #:  3912
+MACs:  191688
+ 
+[13:01:52] (INFO) Building library...
+[13:01:52] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.6266379616477273, 'median': 1.5848388671875, 'mins': 1.5128173828125}
+ 
+(7, 3, 1, 160, 16, 80)
+Params #:  3984
+MACs:  195216
+ 
+[13:02:09] (INFO) Building library...
+[13:02:09] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.555904873934659, 'median': 1.5201416015625, 'mins': 1.45361328125}
+ 
+(7, 3, 1, 160, 16, 160)
+Params #:  5264
+MACs:  257936
+ 
+[13:02:26] (INFO) Building library...
+[13:02:26] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.6635187322443183, 'median': 2.619140625, 'mins': 2.3330078125}
+ 
+(7, 3, 1, 160, 16, 320)
+Params #:  7824
+MACs:  383376
+ 
+[13:02:45] (INFO) Building library...
+[13:02:45] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8215465198863636, 'median': 1.704833984375, 'mins': 1.59619140625}
+ 
+(7, 3, 1, 160, 32, 80)
+Params #:  7968
+MACs:  390432
+ 
+[13:03:02] (INFO) Building library...
+[13:03:02] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.6718405983664772, 'median': 1.655029296875, 'mins': 1.5257568359375}
+ 
+(7, 3, 1, 160, 32, 160)
+Params #:  10528
+MACs:  515872
+ 
+[13:03:19] (INFO) Building library...
+[13:03:19] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.3510597922585226, 'median': 2.287841796875, 'mins': 2.1414794921875}
+ 
+(7, 3, 1, 160, 32, 320)
+Params #:  15648
+MACs:  766752
+ 
+[13:03:38] (INFO) Building library...
+[13:03:38] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5616177645596592, 'median': 1.541259765625, 'mins': 1.4522705078125}
+ 
+(7, 3, 1, 160, 64, 80)
+Params #:  15936
+MACs:  780864
+ 
+[13:03:55] (INFO) Building library...
+[13:03:55] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5032781427556818, 'median': 1.493408203125, 'mins': 1.41455078125}
+ 
+(7, 3, 1, 160, 64, 160)
+Params #:  21056
+MACs:  1031744
+ 
+[13:04:12] (INFO) Building library...
+[13:04:12] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.4359929865056817, 'median': 2.4102783203125, 'mins': 2.3206787109375}
+ 
+(7, 3, 1, 160, 64, 320)
+Params #:  31296
+MACs:  1533504
+ 
+[13:04:31] (INFO) Building library...
+[13:04:31] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.507308682528409, 'median': 1.4888916015625, 'mins': 1.4105224609375}
+ 
+(7, 3, 1, 160, 128, 80)
+Params #:  31872
+MACs:  1561728
+ 
+[13:04:48] (INFO) Building library...
+[13:04:48] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7125532670454546, 'median': 1.692138671875, 'mins': 1.5875244140625}
+ 
+(7, 3, 1, 160, 128, 160)
+Params #:  42112
+MACs:  2063488
+ 
+[13:05:05] (INFO) Building library...
+[13:05:05] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.26632080078125, 'median': 2.248779296875, 'mins': 2.1524658203125}
+ 
+(7, 3, 1, 160, 128, 320)
+Params #:  62592
+MACs:  3067008
+ 
+[13:05:24] (INFO) Building library...
+[13:05:24] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.801522549715909, 'median': 1.7840576171875, 'mins': 1.703857421875}
+ 
+(7, 3, 1, 160, 192, 80)
+Params #:  47808
+MACs:  2342592
+ 
+[13:05:42] (INFO) Building library...
+[13:05:42] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.6550559303977272, 'median': 1.532470703125, 'mins': 1.4462890625}
+ 
+(7, 3, 1, 160, 192, 160)
+Params #:  63168
+MACs:  3095232
+ 
+[13:05:59] (INFO) Building library...
+[13:05:59] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.5033369584517047, 'median': 2.495361328125, 'mins': 2.41796875}
+ 
+(7, 3, 1, 160, 192, 320)
+Params #:  93888
+MACs:  4600512
+ 
+[13:06:18] (INFO) Building library...
+[13:06:18] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5273670543323863, 'median': 1.50732421875, 'mins': 1.429931640625}
+ 
+(7, 3, 1, 160, 256, 80)
+Params #:  63744
+MACs:  3123456
+ 
+[13:06:35] (INFO) Building library...
+[13:06:35] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.6714066938920455, 'median': 1.658447265625, 'mins': 1.582275390625}
+ 
+(7, 3, 1, 160, 256, 160)
+Params #:  84224
+MACs:  4126976
+ 
+[13:06:52] (INFO) Building library...
+[13:06:52] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.2366222034801138, 'median': 2.2218017578125, 'mins': 2.086181640625}
+ 
+(7, 3, 1, 160, 256, 320)
+Params #:  125184
+MACs:  6134016
+ 
+[13:07:11] (INFO) Building library...
+[13:07:11] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7495372425426137, 'median': 1.70361328125, 'mins': 1.5816650390625}
+ 
+(7, 3, 1, 160, 320, 80)
+Params #:  79680
+MACs:  3904320
+ 
+[13:07:27] (INFO) Building library...
+[13:07:27] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5585193980823864, 'median': 1.5372314453125, 'mins': 1.439208984375}
+ 
+(7, 3, 1, 160, 320, 160)
+Params #:  105280
+MACs:  5158720
+ 
+[13:07:44] (INFO) Building library...
+[13:07:44] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.53948974609375, 'median': 2.501708984375, 'mins': 2.4256591796875}
+ 
+(7, 3, 1, 160, 320, 320)
+Params #:  156480
+MACs:  7667520
+ 
+[13:08:04] (INFO) Building library...
+[13:08:04] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.910531338778409, 'median': 1.7481689453125, 'mins': 1.6453857421875}
+ 
+(7, 3, 1, 160, 384, 80)
+Params #:  95616
+MACs:  4685184
+ 
+[13:08:21] (INFO) Building library...
+[13:08:21] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7832430752840909, 'median': 1.640380859375, 'mins': 1.4781494140625}
+ 
+(7, 3, 1, 160, 384, 160)
+Params #:  126336
+MACs:  6190464
+ 
+[13:08:38] (INFO) Building library...
+[13:08:38] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.5140758167613635, 'median': 2.4930419921875, 'mins': 2.3934326171875}
+ 
+(7, 3, 1, 160, 384, 320)
+Params #:  187776
+MACs:  9201024
+ 
+[13:08:57] (INFO) Building library...
+[13:08:57] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.75465087890625, 'median': 1.7254638671875, 'mins': 1.6409912109375}
+ 
+(7, 3, 1, 160, 448, 80)
+Params #:  111552
+MACs:  5466048
+ 
+[13:09:15] (INFO) Building library...
+[13:09:15] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.71204833984375, 'median': 1.6806640625, 'mins': 1.6024169921875}
+ 
+(7, 3, 1, 160, 448, 160)
+Params #:  147392
+MACs:  7222208
+ 
+[13:09:32] (INFO) Building library...
+[13:09:32] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.584226296164773, 'median': 2.5565185546875, 'mins': 2.4647216796875}
+ 
+(7, 3, 1, 160, 448, 320)
+Params #:  219072
+MACs:  10734528
+ 
+[13:09:52] (INFO) Building library...
+[13:09:52] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8297352183948863, 'median': 1.8060302734375, 'mins': 1.7093505859375}
+ 
+(7, 3, 1, 160, 512, 80)
+Params #:  127488
+MACs:  6246912
+ 
+[13:10:09] (INFO) Building library...
+[13:10:09] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.6397505326704545, 'median': 1.629150390625, 'mins': 1.564453125}
+ 
+(7, 3, 1, 160, 512, 160)
+Params #:  168448
+MACs:  8253952
+ 
+[13:10:25] (INFO) Building library...
+[13:10:25] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.5010819868607954, 'median': 2.4652099609375, 'mins': 2.3690185546875}
+ 
+(7, 3, 1, 160, 512, 320)
+Params #:  250368
+MACs:  12268032
+ 
+[13:10:44] (INFO) Building library...
+[13:10:44] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7999655983664773, 'median': 1.7882080078125, 'mins': 1.70947265625}
+ 
+(7, 3, 1, 160, 576, 80)
+Params #:  143424
+MACs:  7027776
+ 
+[13:11:01] (INFO) Building library...
+[13:11:01] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7256425337357955, 'median': 1.70263671875, 'mins': 1.592529296875}
+ 
+(7, 3, 1, 160, 576, 160)
+Params #:  189504
+MACs:  9285696
+ 
+[13:11:19] (INFO) Building library...
+[13:11:19] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.099267578125, 'median': 2.0687255859375, 'mins': 1.976806640625}
+ 
+(7, 3, 1, 160, 576, 320)
+Params #:  281664
+MACs:  13801536
+ 
+[13:11:38] (INFO) Building library...
+[13:11:38] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.6852683327414772, 'median': 1.6773681640625, 'mins': 1.6070556640625}
+ 
+(7, 3, 1, 160, 640, 80)
+Params #:  159360
+MACs:  7808640
+ 
+[13:11:55] (INFO) Building library...
+[13:11:55] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7139415394176136, 'median': 1.6964111328125, 'mins': 1.6224365234375}
+ 
+(7, 3, 1, 160, 640, 160)
+Params #:  210560
+MACs:  10317440
+ 
+[13:12:12] (INFO) Building library...
+[13:12:12] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.476187411221591, 'median': 2.4398193359375, 'mins': 2.3560791015625}
+ 
+(7, 3, 1, 160, 640, 320)
+Params #:  312960
+MACs:  15335040
+ 
+[13:12:32] (INFO) Building library...
+[13:12:32] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.871710759943182, 'median': 1.84814453125, 'mins': 1.7335205078125}
+ 
+(7, 3, 1, 160, 704, 80)
+Params #:  175296
+MACs:  8589504
+ 
+[13:12:49] (INFO) Building library...
+[13:12:49] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8332919034090909, 'median': 1.81982421875, 'mins': 1.740234375}
+ 
+(7, 3, 1, 160, 704, 160)
+Params #:  231616
+MACs:  11349184
+ 
+[13:13:07] (INFO) Building library...
+[13:13:07] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.4169233842329545, 'median': 2.39599609375, 'mins': 2.3004150390625}
+ 
+(7, 3, 1, 160, 704, 320)
+Params #:  344256
+MACs:  16868544
+ 
+[13:13:26] (INFO) Building library...
+[13:13:26] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7085560191761364, 'median': 1.6849365234375, 'mins': 1.59912109375}
+ 
+(7, 3, 1, 160, 768, 80)
+Params #:  191232
+MACs:  9370368
+ 
+[13:13:43] (INFO) Building library...
+[13:13:43] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7025834517045455, 'median': 1.688720703125, 'mins': 1.6124267578125}
+ 
+(7, 3, 1, 160, 768, 160)
+Params #:  252672
+MACs:  12380928
+ 
+[13:14:01] (INFO) Building library...
+[13:14:01] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.5010886452414773, 'median': 2.4793701171875, 'mins': 2.3939208984375}
+ 
+(7, 3, 1, 160, 768, 320)
+Params #:  375552
+MACs:  18402048
+ 
+[13:14:21] (INFO) Building library...
+[13:14:21] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8236594460227273, 'median': 1.814453125, 'mins': 1.7320556640625}
+ 
+(7, 3, 1, 160, 832, 80)
+Params #:  207168
+MACs:  10151232
+ 
+[13:14:38] (INFO) Building library...
+[13:14:38] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8705466530539774, 'median': 1.85302734375, 'mins': 1.7568359375}
+ 
+(7, 3, 1, 160, 832, 160)
+Params #:  273728
+MACs:  13412672
+ 
+[13:14:56] (INFO) Building library...
+[13:14:56] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.6591552734375, 'median': 2.6053466796875, 'mins': 2.5203857421875}
+ 
+(7, 3, 1, 160, 832, 320)
+Params #:  406848
+MACs:  19935552
+ 
+[13:15:15] (INFO) Building library...
+[13:15:15] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.9631736061789773, 'median': 1.84521484375, 'mins': 1.7437744140625}
+ 
+(7, 3, 1, 160, 896, 80)
+Params #:  223104
+MACs:  10932096
+ 
+[13:15:33] (INFO) Building library...
+[13:15:33] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7640425248579545, 'median': 1.73681640625, 'mins': 1.6356201171875}
+ 
+(7, 3, 1, 160, 896, 160)
+Params #:  294784
+MACs:  14444416
+ 
+[13:15:50] (INFO) Building library...
+[13:15:50] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.4392145330255683, 'median': 2.39501953125, 'mins': 2.3074951171875}
+ 
+(7, 3, 1, 160, 896, 320)
+Params #:  438144
+MACs:  21469056
+ 
+[13:16:09] (INFO) Building library...
+[13:16:09] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8450639204545454, 'median': 1.830322265625, 'mins': 1.73876953125}
+ 
+(7, 3, 1, 160, 960, 80)
+Params #:  239040
+MACs:  11712960
+ 
+[13:16:27] (INFO) Building library...
+[13:16:27] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.5567316228693182, 'median': 1.53857421875, 'mins': 1.443115234375}
+ 
+(7, 3, 1, 160, 960, 160)
+Params #:  315840
+MACs:  15476160
+ 
+[13:16:44] (INFO) Building library...
+[13:16:44] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.8170543323863637, 'median': 1.8021240234375, 'mins': 1.731689453125}
+ 
+(7, 3, 1, 160, 960, 320)
+Params #:  469440
+MACs:  23002560
+ 
+[13:17:03] (INFO) Building library...
+[13:17:03] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.1724587180397728, 'median': 1.1588134765625, 'mins': 1.0902099609375}
+ 
+(7, 3, 1, 160, 1024, 80)
+Params #:  254976
+MACs:  12493824
+ 
+[13:17:21] (INFO) Building library...
+[13:17:21] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.9401755593039773, 'median': 1.9232177734375, 'mins': 1.7655029296875}
+ 
+(7, 3, 1, 160, 1024, 160)
+Params #:  336896
+MACs:  16507904
+ 
+[13:17:38] (INFO) Building library...
+[13:17:38] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.554940518465909, 'median': 2.5162353515625, 'mins': 2.415771484375}
+ 
+(7, 3, 1, 160, 1024, 320)
+Params #:  500736
+MACs:  24536064
+ 
+[13:17:57] (INFO) Building library...
+[13:17:57] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.822195712002841, 'median': 1.783935546875, 'mins': 1.705078125}
+ 
+(7, 3, 1, 160, 1088, 80)
+Params #:  270912
+MACs:  13274688
+ 
+[13:18:14] (INFO) Building library...
+[13:18:14] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.80718994140625, 'median': 1.7978515625, 'mins': 1.7244873046875}
+ 
+(7, 3, 1, 160, 1088, 160)
+Params #:  357952
+MACs:  17539648
+ 
+[13:18:32] (INFO) Building library...
+[13:18:32] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.405548650568182, 'median': 2.367919921875, 'mins': 2.284912109375}
+ 
+(7, 3, 1, 160, 1088, 320)
+Params #:  532032
+MACs:  26069568
+ 
+[13:18:51] (INFO) Building library...
+[13:18:51] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7978038441051136, 'median': 1.781494140625, 'mins': 1.7098388671875}
+ 
+(7, 3, 1, 160, 1152, 80)
+Params #:  286848
+MACs:  14055552
+ 
+[13:19:08] (INFO) Building library...
+[13:19:08] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.7918212890625, 'median': 1.7833251953125, 'mins': 1.706787109375}
+ 
+(7, 3, 1, 160, 1152, 160)
+Params #:  379008
+MACs:  18571392
+ 
+[13:19:26] (INFO) Building library...
+[13:19:26] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 2.5443803267045455, 'median': 2.502685546875, 'mins': 2.421630859375}
+ 
+(7, 3, 1, 160, 1152, 320)
+Params #:  563328
+MACs:  27603072
+ 
+[13:19:45] (INFO) Building library...
+[13:19:45] (DEBUG) Build target: cuda -arch=sm_72 -model=tx2 -libs=cudnn,cublas
+{'use_implicit_batch': True, 'max_workspace_size': 1073741824, 'remove_no_mac_subgraphs': False, 'use_fp16': False, 'use_uint8': False, 'dla_core': 0, 'gpu_fallback': True, 'tensorrt_version': (8, 4, 1)}
+{'mean': 1.988326748934659, 'median': 1.8818359375, 'mins': 1.779541015625}
