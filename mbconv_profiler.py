@@ -158,6 +158,9 @@ class MBProfiler():
         self.mod, self.params = get_mbconv(self.input_shape, self.k, self.s, 
                                              self.in_c, self.exp_c, self.out_c, act,
                                              self.block_name)
+        print(self.mod)
+        return
+        ################
         if self.tuning_log != None:
             self.module = get_runtime_module_tuned(self.mod, self.params, self.tuning_log, self.opt_level, self.target)
         else:
