@@ -106,7 +106,7 @@ class MBProfiler():
 
     def do_exec(self, config_key: tuple, act='ReLU6'):
         self.build_runtime_module(config_key, act)
-        self.profile_execution()
+        #self.profile_execution()
 
 
     def clear_runtime_module(self, members):
